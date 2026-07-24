@@ -1,0 +1,154 @@
+/* Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #f4f7fc;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  background: linear-gradient(90deg, #0d6efd, #4f46e5);
+}
+
+.navbar-brand {
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.navbar .btn {
+  border-radius: 8px;
+}
+
+/* Cards */
+.card {
+  border: none;
+  border-radius: 15px;
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.dashboard-card {
+  color: white;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.dashboard-card h5 {
+  font-size: 18px;
+}
+
+.dashboard-card h2 {
+  font-weight: bold;
+}
+
+/* Search Box */
+.search-card {
+  border-radius: 15px;
+  background: white;
+  padding: 20px;
+  box-shadow: 0 3px 10px rgba(0,0,0,.1);
+}
+
+/* Table */
+.table {
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.table thead {
+  background: #0d6efd;
+  color: white;
+}
+
+.table tbody tr:hover {
+  background: #eef5ff;
+}
+
+/* Status Badges */
+.badge-new {
+  background: #0d6efd;
+}
+
+.badge-contacted {
+  background: #0dcaf0;
+}
+
+.badge-qualified {
+  background: #ffc107;
+  color: black;
+}
+
+.badge-won {
+  background: #198754;
+}
+
+.badge-lost {
+  background: #dc3545;
+}
+
+/* Buttons */
+.btn {
+  border-radius: 8px;
+}
+
+/* Login/Register */
+.auth-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg,#0d6efd,#6f42c1);
+}
+
+.auth-card {
+  width: 420px;
+  border-radius: 20px;
+  padding: 30px;
+  background: white;
+  box-shadow: 0 10px 30px rgba(0,0,0,.2);
+}
+
+.auth-card h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+  color: gray;
+}
+
+/* Spinner */
+.loader {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+/* Responsive */
+@media(max-width:768px){
+
+.dashboard-card{
+margin-bottom:15px;
+}
+
+.auth-card{
+width:95%;
+}
+
+}
